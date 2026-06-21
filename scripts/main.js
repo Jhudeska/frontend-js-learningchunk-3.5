@@ -11,13 +11,13 @@ const chosenKm =  23;
 // 3. Is het ingevoerde type gelijk aan "Uber X"?
 //    Vermenigvuldig de km dan met €2.
 if(chosenService == "Uber X"){
-    console.log("De gekozen service is Uber");
+    console.log("De gekozen service is Uber X");
     output =  chosenKm * 2;
 
 // 4. Is het ingevoerde type gelijk aan "Uber Black"?
 //    Vermenigvuldig de km dan met €5.
 }else if(chosenService == "Uber Black"){
-    console.log("De gekozen service is Uber X");
+    console.log("De gekozen service is Uber Black");
     output =  chosenKm * 5;
 
 // 5. Is het ingevoerde type gelijk aan "Uber Van"?
@@ -30,7 +30,7 @@ if(chosenService == "Uber X"){
 }
 
 // 6. Log uitkomst in console
-console.log(output);
+console.log("Rit van " + output + " - bevestigen ?");
 
 
 
